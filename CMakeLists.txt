@@ -3,4 +3,5 @@ project(STL)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(STL main.cpp)
+add_subdirectory(tests)
+add_subdirectory(src)
